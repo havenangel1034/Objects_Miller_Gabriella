@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Objects_Miller_Gabriella
 {
-    internal interface Interface1
+    internal interface IBootUp
     {
+
+        public bool IsOn {  get; set; }
+
+        public void PowerOnOff();
+
     }
 }
